@@ -12,6 +12,9 @@ function printInformation() {
     outputNumber.innerHTML = event.target.number.value;
     outputPassword.innerHTML = event.target.password.value;
     outputDate.innerHTML = event.target.date.value;
+    document.getElementById('confirmation').style.display = "block";
+    document.getElementById('congrats').style.display = "block";
+    document.getElementById('image').style.display = "block";
 }
 
 // event.target.input.value;

@@ -5,6 +5,9 @@ body {
 }
 .formStyle {
     margin: 10px 5px;
+    background-color: rgb(173, 255, 251);
+    color: red;
+    border-radius: 5px;
 }
 
 #submit {
@@ -18,3 +21,15 @@ body {
     background-color: lightsteelblue;
 }
 
+#congrats {
+    display: none;
+}
+#image {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+#confirmation {
+    display: none;
+}
